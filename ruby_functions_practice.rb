@@ -39,3 +39,7 @@ def number_to_short_month_name(num)
   month = Date::MONTHNAMES[num]
   return month[0..2]
 end
+
+def volume_of_cube(num)
+  return num ** 3
+end
