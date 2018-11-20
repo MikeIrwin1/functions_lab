@@ -47,3 +47,7 @@ end
 def volume_of_sphere(num)
   return ((4 * 3.14 * num ** 3)/3).round
 end
+
+def fahrenheit_to_celcius(num)
+  return (num -32) * 5/9
+end
